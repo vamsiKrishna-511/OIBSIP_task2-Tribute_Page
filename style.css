@@ -1,0 +1,36 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(20, 19, 19);
+    background-color: rgba(168, 226, 155, 0.578);
+  }
+ 
+  .header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+  }
+ 
+  .tribute {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    max-width: 88rem;
+    margin: 0px auto;
+    background: lightgreen;
+    color: rgb(232, 78, 186);
+    align-items: center;
+    padding: 0px 0px 0px 14rem;
+    
+  }
+  .tribute blockquote {
+    text-align: center justify;
+    font-size: 2rem;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
